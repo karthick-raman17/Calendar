@@ -1,0 +1,79 @@
+.eventView {
+	
+    background:  #FFF;
+    position: absolute;
+    z-index: 1001;
+    width: 350px;
+    height: 180px;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#popupHeader h2 {
+    margin-top: 10px !important;
+    color: #000;
+    font-size: 16px;
+    margin: 35px 30px 7px;
+    font-weight: normal;
+    font-weight: bold;
+     line-height: 40px;
+}
+
+#popupHeader .cancel_btn{
+    float: right;
+    font-weight: bold;
+    margin: 20px 21px 0 0;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -9px;
+    top: -1px;
+    z-index: 1;
+    cursor: pointer;
+    background: url(../img/close-icon.png) left top no-repeat;
+}
+
+
+
+.appointment-det-container ul {
+    cursor: default;
+    padding: 17px 20px;
+    margin: 0;
+    color: #30373C;
+}
+
+.appointment-det-container ul li {
+    padding: 9px 0px;
+    margin: 0;
+    clear: both;
+    font-size: 12px;
+    list-style: none;
+}
+
+.appointment-det-container ul li label {
+    width: 83px;
+    float: left;
+    color: #000;
+    text-align: left;
+    margin-right: 17px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.appointment-det-container ul li span {
+    float: left;
+    color: #666;
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 228px;
+    word-break: break-word;
+    word-wrap: break-word;
+    max-height: 150px;
+    overflow: auto;
+}
